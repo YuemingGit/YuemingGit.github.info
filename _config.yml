@@ -1,0 +1,12 @@
+title: "My Lifelong Learning"
+description: "用 Obsidian 和 GitHub Pages 搭建"
+baseurl: ""
+url: "https://YuemingGit.github.io"
+theme: jekyll-theme-cayman
+
+# 导航
+navbar:
+  - title: "首页"
+    url: "/"
+  - title: "文章"
+    url: "/posts.html"
