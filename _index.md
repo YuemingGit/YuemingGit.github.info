@@ -1,14 +1,8 @@
 ---
 layout: default
-title: 首页
+title: 测试页面
 ---
 
-# 欢迎来到我的博客
+# 这是一个测试标题
 
-这里是我用 Obsidian 记录的知识笔记。
-
-## 最新文章
-
-{% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
-{% endfor %}
+这是一个测试段落。如果这个能显示，说明网站基本正常。
