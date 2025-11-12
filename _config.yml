@@ -1,9 +1,0 @@
-title: "我的博客"
-baseurl: ""
-url: "https://YuemingGit.github.io"
-theme: jekyll-theme-minimal
-
-permalink: /:year/:month/:day/:title.html
-
-plugins:
-  - jekyll-feed
