@@ -1,15 +1,9 @@
-title: "My Lifelong Learning"
-remote_theme: pages-themes/minimal@v0.2.0
+title: "我的博客"
+baseurl: ""
+url: "https://YuemingGit.github.io"
+theme: jekyll-theme-minimal
+
+permalink: /:year/:month/:day/:title.html
+
 plugins:
-  - jekyll-remote-theme
-
-# 添加这行来禁用 GitHub 按钮
-github: false
-
-navbar:
-  - title: "首页"
-    url: "/"
-  - title: "关于"
-    url: "/about.html"
-  - title: "联系" 
-    url: "/contact.html"
+  - jekyll-feed
